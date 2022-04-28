@@ -1,6 +1,7 @@
 import React from 'react'
 import { getProducts } from './ProductActions'
 import {connect} from 'react-redux'
+import ProductCard from './ProductCard'
 
 class Products extends React.Component {
 
@@ -11,7 +12,7 @@ class Products extends React.Component {
     render() {
         return(
             <div>
-                {this.props.products.map((product) => <li>{product.name}</li>)}
+                {this.props.products.map((product) => <ProductCard key={product.id} product={product} />)}
             </div>
         )
     }
