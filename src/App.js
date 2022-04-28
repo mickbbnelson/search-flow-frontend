@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Products from './Products'
+import Products from './ProductsContainer'
 
 function App() {
   return (
@@ -10,5 +9,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
