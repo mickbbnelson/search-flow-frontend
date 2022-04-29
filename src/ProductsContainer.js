@@ -11,7 +11,7 @@ class Products extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className="cardRow">
                 {this.props.products.map((product) => <ProductCard key={product.id} product={product} />)}
             </div>
         )
