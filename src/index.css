@@ -43,6 +43,7 @@ code {
 .strainInfo {
   margin-top: 0px;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .imageContainer {
@@ -72,4 +73,9 @@ code {
   cursor: pointer;
   border-radius: 50%;
   width: 10px;
+}
+
+.NavBar ul li{
+  display: inline;
+  margin: 30px;
 }

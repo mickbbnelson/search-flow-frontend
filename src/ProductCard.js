@@ -7,7 +7,8 @@ export default function ProductCard(props){
             </div>
             {/* <span>{props.product.name}</span> */}
             <div className="cardContainer">
-                <h5 className="strainTitle">{props.product.name} - ${props.product.price} / {props.product.weight} grams</h5>
+                <h5 className="strainTitle">{props.product.name}</h5>
+                <h5 className="strainInfo">${props.product.price} / {props.product.weight} grams</h5>
                 <h5 className="strainInfo">{props.product.straintype}: {props.product.thc}% THC</h5>
             </div>
         </div>
