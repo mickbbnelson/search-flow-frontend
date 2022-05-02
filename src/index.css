@@ -59,7 +59,7 @@ code {
 .imageContainer button {
   position: absolute;
   top: 15%;
-  left: 115%;
+  left: 20%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: white;
@@ -75,7 +75,14 @@ code {
   width: 10px;
 }
 
-.NavBar ul li{
+.NavBar ul li {
   display: inline;
   margin: 30px;
+}
+
+.cardRow {
+  margin: auto;
+  padding-left: 17%;
+  width: 90%;
+  text-align: center;
 }
