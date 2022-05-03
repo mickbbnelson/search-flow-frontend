@@ -2,12 +2,24 @@ function NavBar() {
     return (
         <nav className="NavBar">
             <ul>
-                <li>Shop All</li>
-                <li>Flower</li>
-                <li>Vape Pens</li>
-                <li>Edibles</li>
-                <li>Pre Rolls</li>
-                <li>Concentrates</li>
+                <li>
+                    <button>Shop All</button>
+                </li>
+                <li>                    
+                    <button>Flower</button>
+                </li>
+                <li>
+                    <button>Vape Pens</button>
+                </li>
+                <li>
+                    <button>Edibles</button>
+                </li>
+                <li>
+                    <button>Pre Rolls</button>
+                </li>
+                <li>
+                    <button>Tinctures</button>
+                </li>
             </ul>
         </nav>
     )
