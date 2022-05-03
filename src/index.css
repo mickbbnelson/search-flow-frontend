@@ -75,12 +75,12 @@ code {
   width: 10px;
 }
 
-.NavBar ul li {
+.ProdSelect ul li {
   display: inline-block;
   margin: 30px;
 }
 
-.NavBar ul li button {
+.ProdSelect ul li button {
   padding: auto;
   background-color: slateblue;
   color: white;
@@ -95,7 +95,7 @@ code {
   cursor: pointer;
 }
 
-.NavBar ul li button:hover {
+.ProdSelect ul li button:hover {
   background-color: hotpink;
 }
 
@@ -106,6 +106,20 @@ code {
   text-align: center;
 }
 
-/* .NavBarLI {
+.AddressInput {
+  width: 50%;
+  height:25px;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  border: none;
+  text-align: center;
+  color: slateblue;
+}
+
+.AddressFormText h1 {
   display: inline-block;
-} */
+  margin-right: 7px;
+}
+
+.pinkHead {
+  color: hotpink;
+}

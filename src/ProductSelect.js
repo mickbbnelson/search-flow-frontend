@@ -1,6 +1,6 @@
-function NavBar() {
+function ProductSelect() {
     return (
-        <nav className="NavBar">
+        <nav className="ProdSelect">
             <ul>
                 <li>
                     <button>Shop All</button>
@@ -25,4 +25,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default ProductSelect

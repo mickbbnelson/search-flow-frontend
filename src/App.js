@@ -1,11 +1,13 @@
 import './App.css';
 import Products from './ProductsContainer'
-import NavBar from './NavBar';
+import ProductSelect from './ProductSelect';
+import AddressForm from './AddressForm'
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <AddressForm />
+      <ProductSelect />
       <Products />
     </div>
   );
