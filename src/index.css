@@ -107,12 +107,13 @@ code {
 }
 
 .AddressInput {
-  width: 50%;
-  height:25px;
+  width: 30%;
+  height: 25px;
   box-shadow: 0 0 10px rgba(0,0,0,.3);
   border: none;
   text-align: center;
   color: slateblue;
+  /* margin-right: 40px; */
 }
 
 .AddressFormText h1 {
@@ -122,4 +123,42 @@ code {
 
 .pinkHead {
   color: hotpink;
+  Margin-left: 100px;
 }
+
+.NavLinks ul li {
+  display: inline;
+  margin: 40px;
+  text-decoration: none;
+}
+
+.NavLinks ul li a {
+  text-decoration: none;
+}
+
+.NavLinks ul li a:hover {
+  text-decoration: underline;
+}
+
+.NavBar div {
+  display: inline-block
+}
+
+.NavGen {
+  float: right;
+  margin: 20px;
+}
+
+.NavGen button {
+  background-color: slateblue;
+  border: none;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  height: 30px;
+  width: 100px;
+  border-radius: 25px;
+}
+

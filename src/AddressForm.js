@@ -14,7 +14,7 @@ class AddressForm extends React.Component {
     
     render(){
     return (
-        <div>
+        <div className="AddressForm">
             <div className="AddressFormText">
                 <h1 className="pinkHead">Enter your delivery address</h1><h1>to check availability</h1>
             </div>
