@@ -106,6 +106,10 @@ code {
   text-align: center;
 }
 
+.AddressForm {
+  padding-top: 100px;
+}
+
 .AddressInput {
   width: 30%;
   height: 25px;
@@ -140,13 +144,24 @@ code {
   text-decoration: underline;
 }
 
+.NavBar {
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  background-color: white !important;
+  z-index: 1;
+}
+
 .NavBar div {
   display: inline-block
 }
 
 .NavGen {
+  padding-bottom: 20px;
   float: right;
-  margin: 20px;
+  margin: 10px;
 }
 
 .NavGen button {
@@ -162,3 +177,27 @@ code {
   border-radius: 25px;
 }
 
+.footer {
+  margin-top:auto; 
+  background-color: rgb(68, 5, 68);
+}
+
+.footer ul li {
+  display: inline;
+  margin: 40px;
+  text-decoration: none;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.App {
+  display:flex; 
+  flex-direction:column; 
+}
