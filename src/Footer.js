@@ -2,12 +2,12 @@ function Footer() {
     return (
         <footer className="footer">
             <ul>
-                <li><a href="">Los Angeles</a></li>
-                <li><a href="">Orange County</a></li>
-                <li><a href="">San Francisco</a></li>
-                <li><a href="">San Jose</a></li>
-                <li><a href="">East Bay</a></li>
-                <li><a href="">Sacramento</a></li>
+                <li><a href="">Boulder</a></li>
+                <li><a href="">Connifer</a></li>
+                <li><a href="">Evergreen</a></li>
+                <li><a href="">Genesse Park</a></li>
+                <li><a href="">Golden</a></li>
+                <li><a href="">Lakewood</a></li>
             </ul>
         </footer>
     )

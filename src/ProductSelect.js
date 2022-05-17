@@ -3,22 +3,22 @@ function ProductSelect() {
         <nav className="ProdSelect">
             <ul>
                 <li>
-                    <button>Shop All</button>
+                    <button>Dog Parks</button>
                 </li>
                 <li>                    
-                    <button>Flower</button>
+                    <button>Easy Trails</button>
                 </li>
                 <li>
-                    <button>Vape Pens</button>
+                    <button>Hard Trails</button>
                 </li>
                 <li>
-                    <button>Edibles</button>
+                    <button>Parks</button>
                 </li>
                 <li>
-                    <button>Pre Rolls</button>
+                    <button>Patios</button>
                 </li>
                 <li>
-                    <button>Tinctures</button>
+                    <button>Other</button>
                 </li>
             </ul>
         </nav>

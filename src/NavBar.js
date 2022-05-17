@@ -3,10 +3,10 @@ function NavBar() {
         <nav className="NavBar">
             <div className="NavLinks">
                 <ul>
-                    <li><a href="">Shop All</a></li>
-                    <li><a href="">Deals</a></li>
-                    <li><a href="">Brands</a></li>
-                    <li><a href="">Refer Friends</a></li>
+                    <li><a href="">TBD</a></li>
+                    <li><a href="">TBD</a></li>
+                    <li><a href="">TBD</a></li>
+                    <li><a href="">TBD</a></li>
                 </ul>
             </div>
             <div className="NavGen">
